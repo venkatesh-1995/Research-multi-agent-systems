@@ -1,0 +1,21 @@
+langchain
+langchain-core
+langchain-community
+
+# Tavily and OpenRouter integrations  
+langchain-tavily
+langchain-openrouter
+streamlit
+requests
+
+# Web Scraping libraries
+beautifulsoup4
+readability-lxml
+trafilatura
+lxml
+pydantic   
+fastapi
+uvicorn 
+
+# Environment variable management
+python-dotenv 
