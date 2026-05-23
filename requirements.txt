@@ -13,9 +13,16 @@ beautifulsoup4
 readability-lxml
 trafilatura
 lxml
+
+
+# Environment variable management
+python-dotenv 
+
+
 pydantic   
 fastapi
 uvicorn 
 
-# Environment variable management
-python-dotenv 
+# Logging and debugging 
+rich
+
