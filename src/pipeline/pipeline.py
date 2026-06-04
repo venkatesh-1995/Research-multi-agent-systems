@@ -64,10 +64,11 @@ Search Result:
     print("step 3 - Writer is drafting the report ...")
     print("="*50)
     
-    research_combined=(
-        f"Search Result:\n{state['search_result']}\n",
-        f"reader scaped content:\n{state['reader_result']}\n"
-    )
+    research_combined=f"""
+        Search Result:{state['search_result']}
+        reader scaped content:{state['reader_result']}
+        """
+    
     
     state["report"] =writer_chain.invoke({
         "topic":topic,
