@@ -73,7 +73,7 @@ Search Result:
     state["report"] =writer_chain.invoke({
         "topic":topic,
         "research_combined":research_combined
-  }  )
+  } ).content
 
 
     print("\n final report",state["report"])
@@ -88,7 +88,7 @@ Search Result:
     
     state["feedback"]=critic_chain.invoke({
         "report": state["report"]
-    })
+    }).content
     
     print("\n critic report:",state["feedback"])
     
